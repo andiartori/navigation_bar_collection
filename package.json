@@ -1,0 +1,15 @@
+{
+	"name": "everylittlenavbar",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"dev": "npx @tailwindcss/cli -i ./assets/css/input.css -o ./assets/css/style.css --watch"
+	},
+	"author": "rizkyAndiarto",
+	"license": "ISC",
+	"description": "",
+	"devDependencies": {
+		"@tailwindcss/cli": "^4.1.16",
+		"tailwindcss": "^4.1.16"
+	}
+}
