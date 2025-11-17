@@ -11,24 +11,77 @@
 	<body class="max-w-3xl mx-auto">
 		<nav class="w-full">
 			<a href="/" class="">MyWebsite</a>
-			<div
-				class="flex gap-4 justify-between items-center bg-slate-700 text-white px-4 py-2"
-			>
-				<div class="relative group">
-					<button>
-						<a href="/Menu_1" class="">Menu_1</a>
-					</button>
 
-					<div class="bg-slate-700 absolute hidden group-hover:block">
-						<div class="flex flex-col gap-2 w-full">
-							<a class="hover:bg-blue-400 px-4" href="">SubMenu_1</a>
-							<a href="" class="hover:bg-blue-400 px-4">SubMenu_2</a>
-							<a href="" class="hover:bg-blue-400 px-4">SubMenu_3</a>
+			<div class="bg-slate-700 text-white px-4 py-2">
+				<div class="hidden md:flex gap-4 justify-between items-center">
+					<div class="relative group">
+						<a href="/Menu_1" class="">Menu_1</a>
+
+						<div class="bg-slate-700 absolute hidden group-hover:block">
+							<div class="flex flex-col gap-2 w-full">
+								<a class="hover:bg-blue-400 px-4" href="">SubMenu_1</a>
+								<a class="hover:bg-blue-400 px-4" href="">SubMenu_2</a>
+								<a class="hover:bg-blue-400 px-4" href="">SubMenu_3</a>
+							</div>
+						</div>
+					</div>
+					<div class="relative group">
+						<a href="" class="">Menu_2</a>
+
+						<div class="bg-slate-700 absolute hidden group-hover:block">
+							<div class="flex flex-col gap-2 w-full">
+								<a class="hover:bg-blue-400 px-4" href="">SubMenu_1</a>
+								<a class="hover:bg-blue-400 px-4" href="">SubMenu_2</a>
+								<a class="hover:bg-blue-400 px-4" href="">SubMenu_3</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="relative group">
+						<a href="" class="">Menu_3</a>
+
+						<div class="bg-slate-700 absolute hidden group-hover:block">
+							<div class="flex flex-col gap-2 w-full">
+								<a class="hover:bg-blue-400 px-4" href="">SubMenu_1</a>
+								<a class="hover:bg-blue-400 px-4" href="">SubMenu_2</a>
+								<a class="hover:bg-blue-400 px-4" href="">SubMenu_3</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="relative group">
+						<a href="" class="">Menu_4</a>
+
+						<div class="bg-slate-700 absolute hidden group-hover:block">
+							<div class="flex flex-col gap-2 w-full">
+								<a class="hover:bg-blue-400 px-4" href="">SubMenu_1</a>
+								<a class="hover:bg-blue-400 px-4" href="">SubMenu_2</a>
+								<a class="hover:bg-blue-400 px-4" href="">SubMenu_3</a>
+							</div>
 						</div>
 					</div>
 				</div>
-				<a href="/Menu_2" class="">Menu_2</a>
-				<a href="/Menu_3" class="">Menu_3</a>
+				<div class="flex justify-end w-full md:hidden">
+					<img
+						class="h-10 w-10"
+						src="./assets/image/Hamburger.svg"
+						alt="Hamburger Menu"
+					/>
+				</div>
+			</div>
+
+			<!-- making mobile menu -->
+
+			<div class="bg-slate-700 fixed top-0 right-0 h-screen w-1/4">
+				<div class="flex justify-end p-4">
+					<img class="h-5 w-5" src="./assets/image/close.svg" alt="CLose Bar" />
+				</div>
+				<div class="flex flex-col p-4 gap-4 text-white">
+					<a href="">Menu_1</a>
+					<a href="">Menu_2</a>
+					<a href="">Menu_3</a>
+					<a href="">Menu_4</a>
+				</div>
 			</div>
 		</nav>
 	</body>
